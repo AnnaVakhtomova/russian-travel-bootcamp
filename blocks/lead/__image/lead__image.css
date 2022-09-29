@@ -1,0 +1,29 @@
+.lead__image {
+  width: 100%;
+  min-height: calc(200*100vw/320);
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .lead__image {
+    min-height: calc(480*100vw/768);
+    margin-top: 56px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__image {
+    min-height: calc(580*100vw/1024);
+    margin: 56px auto 0;
+  }
+}
+
+
+@media screen and (min-width: 1280px) {
+  .lead__image {
+    min-height: calc(615*100vw/1280);
+    margin: 64px auto 0;
+  }
+}
+
+   
