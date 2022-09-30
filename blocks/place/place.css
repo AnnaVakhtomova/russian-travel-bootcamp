@@ -11,7 +11,7 @@
 @media screen and (min-width: 768px) {
   .place {
     margin-bottom: 73px;
-    grid-template-columns: 1fr 352px;
+    grid-template-columns: 340px 1fr;
     gap: 48px 28px;
   }
 }
@@ -19,14 +19,14 @@
 @media screen and (min-width: 1024px) {
   .place {
     margin-bottom: 80px;
-    grid-template-columns: 1fr 456px;
+    grid-template-columns: 440px 1fr;
     gap: 48px 32px;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
   .place {
-    grid-template-columns: 1fr 484px;
+    grid-template-columns: 460px 1fr;
     gap: 48px 40px;
   }
 }
