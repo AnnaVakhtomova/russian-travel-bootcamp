@@ -1,19 +1,19 @@
 .lead__image {
   width: 100%;
-  min-height: calc(200*100vw/320);
+  min-height: 200px;
   margin-top: 40px;
 }
 
 @media screen and (min-width: 768px) {
   .lead__image {
-    min-height: calc(480*100vw/768);
+    min-height: 480px;
     margin-top: 56px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .lead__image {
-    min-height: calc(580*100vw/1024);
+    min-height: 580px;
     margin: 56px auto 0;
   }
 }
@@ -21,7 +21,7 @@
 
 @media screen and (min-width: 1280px) {
   .lead__image {
-    min-height: calc(615*100vw/1280);
+    min-height: 615px;
     margin: 64px auto 0;
   }
 }
